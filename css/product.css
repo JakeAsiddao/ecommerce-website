@@ -1,0 +1,12 @@
+.img-flex {
+ width:100%;
+display:block;
+}
+
+.product {
+    border-width:2px;
+    border-color:#868585;
+    border-style:solid;
+    border-radius: 10px;
+    padding:1em;
+}
