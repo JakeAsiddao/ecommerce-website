@@ -15,9 +15,8 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
+    border:0;
     border-radius: 6px;
-    border-color: #868585;
-    border-width: 2px;
-    border-style: solid;
-    color: #868585;
+    background-color:#868585;
+    color: #fff;
 }
