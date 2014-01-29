@@ -1,6 +1,10 @@
 .img-flex {
- width:100%;
-display:block;
+    width:100%;
+    display:block;
+}
+
+h2{
+    text-align:center;
 }
 
 .product {
