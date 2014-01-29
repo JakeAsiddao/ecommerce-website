@@ -15,8 +15,20 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
-    border:0;
+    border-color: #868585;
+    border-width:2px;
     border-radius: 6px;
     background-color:#868585;
     color: #fff;
+    
+}
+
+.btn:hover {
+    border-radius: 6px;
+    border:0;
+    border-color: #f55;
+    background-color: #f55;
+    border-width:2px;
+    border-style:solid;
+    color: #fff; 
 }
