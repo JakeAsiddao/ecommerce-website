@@ -3,13 +3,13 @@
 }
 
 #search form input[type="text"] {
-	background: #F0E3E3 ;
-	border: none;
-	box-shadow: inset 1px 1px 1px #6F1415, inset -1px -1px 1px #6F1415;
-	-moz-box-shadow: inset 1px 1px 1px #6F1415, inset -1px -1px 1px #6F1415;
-	-webkit-box-shadow: inset 1px 1px 1px #6F1415, inset -1px -1px 1px #6F1415;
-	color: #5E191A;
-	font-family: 'Exo 2', sans serif;
+    border-radius: 6px;
+    border-color: #f55;
+    border-width:2px;
+    border-style:solid;
+    color: #f55;
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
 	font-size: 14px;
 	outline: none;
 	padding: 10px 10px 10px 20px;
