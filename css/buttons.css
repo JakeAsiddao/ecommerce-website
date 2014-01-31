@@ -20,10 +20,12 @@
     border-radius: 6px;
     background-color:#868585;
     color: #fff;
+    border-style:solid;
     
 }
 
-.btn:hover {
+.btn:hover,
+.btn-alt:hover{
     border-radius: 6px;
     border:0;
     border-color: #f55;
