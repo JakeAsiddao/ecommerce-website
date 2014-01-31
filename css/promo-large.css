@@ -2,16 +2,16 @@ h1, p{
     text-align:center;
 }
 
-a{
-    margin:0 auto;   
-}
-
 h1{
     color:
 }
 
 p{
-    width:50%;
+    width:60%;
     text-align:center;
     margin:0 auto;
+}
+
+h2{
+    margin: 0;   
 }
