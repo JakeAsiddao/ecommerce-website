@@ -1,5 +1,6 @@
 .small-bucket{
-    width:50%    
+    width:50%;
+    margin: 0 auto;
 }
 
 h1, p {
@@ -8,6 +9,10 @@ h1, p {
 }
 
 img{
-    text-align:center;
-    margin: 0 auto;
+    display:block;
+    margin: auto;
+}
+
+h2{
+    margin: 0;   
 }
