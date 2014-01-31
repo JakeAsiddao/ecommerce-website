@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+    <meta charset="utf-8">
+    <title>Search Field</title>
+    <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="../css/typography.css" rel="stylesheet">
+    <link href="../css/list-group.css" rel="stylesheet">
+    <link href="../css/buttons.css" rel="stylesheet">
+    <link href="../css/media-object.css" rel="stylesheet">
+    <link href="../css/product-list-item.css" rel="stylesheet">
+    <link href="../css/search-field.css" rel="stylesheet">
+</head>
+
+<body></body>
+<div id="search">
+
+        <form action="javascript:void(0);" method="get">
+
+            <input type="text" required value="search" onBlur="if(this.value=='')this.value='search'" onFocus="if(this.value=='search')this.value='' "> <!-- JS because of IE support; better: placeholder="search" -->
+
+            <input type="hidden" value="">
+
+        </form>
+        
+        <a class="btn-alt micro" href="#">Search</a>
+
+    </div> <!-- end search -->
+    
+    </body>
+
+</html>
+    
+
