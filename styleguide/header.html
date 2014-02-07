@@ -10,17 +10,36 @@
     <link href="../css/buttons.css" rel="stylesheet">
     <link href="../css/product-list-item.css" rel="stylesheet">
     <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/search-field.css" rel="stylesheet">
 </head>
 <body>
     
     <div>
+        
+        <img src="http://placehold.it/100x100" alt=""> 
+        
+        <div class="search-bar" id="search">
+
+        <form action="javascript:void(0);" method="get">
+
+            <input type="text" required value="search" onBlur="if(this.value=='')this.value='search'" onFocus="if(this.value=='search')this.value='' "> <!-- JS because of IE support; better: placeholder="search" -->
+
+            <input type="hidden" value="">
+
+        </form>
+        
+        <a class="btn-alt search-btn" href="#">Search</a>
+
+    </div>
     
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" >Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Products</a></li>
-            <li></li><a href="#">Contact</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+        
+    
     
     </div>    
     
