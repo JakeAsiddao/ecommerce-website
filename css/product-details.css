@@ -2,10 +2,6 @@ body{
     margin: 0;   
 }
 
-img {
-       
-}
-
 .price {
     float:right;
     padding-right:1rem;
@@ -26,4 +22,49 @@ img {
     margin: 0 auto;
     text-align:center
   
+}
+
+@media only screen and (min-width: 30em) {
+ 
+    .images {
+        height:26em;
+        margin: 0 auto;
+        text-align:center;
+        width:31em;
+    }
+    
+    .photos img {
+        display:block;
+    }
+    
+    .photos {
+        padding-top:3em;   
+    }
+    
+    .product-img{
+     float: left;
+    }
+    
+    p {
+        width:40em;
+        text-align:left;
+        margin: 0 auto;
+        margin-bottom:1em;
+    }
+    
+    .price-btn {
+        text-align: center;
+        margin: 0 auto;
+        float:none
+}
+    
+    .price {
+        float: none;
+    }
+    
+    .btn {
+     float:none;   
+    }
+
+
 }
