@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+
+
+<h1>Raw Goods!</h1>
+<p>Select which type of jewelry you would like to shop.</p>
+
+
+<nav>
+    <img src="http://placehold.it/350x350" alt="">
+    <a class="{% if page.url == 'bracelet' %}current{% endif%}" href="{{site.baseurl}}/jewelry/bracelet/">Bracelets</a>
+
+    <img src="http://placehold.it/350x350" alt="">
+    <a class="{% if page.url == 'necklace' %}current{% endif%}" href="{{site.baseurl}}/jewelry/necklace/">Necklaces</a>
+</nav>

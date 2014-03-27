@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="grid">
+    <div class="unit unit-s-1 unit-m-2 unit-1-1-3">
+        <h1>Raw Goods Necklaces</h1>
+    </div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-1-2-3">
+        <p>Enjoy our carefully hand crafted necklaces!</p>
+    </div>
+</div>
+
+<ul>
+    {% for jewelry in site.pages %}
+        {% if jewelry.category == 'necklace' %}
+            <li>
+                <a href="{{site.baseurl}}{{jewelry.url}}">
+                    <img src="{{site.baseurl}}/images/{{jewelry.image}}" alt="">
+                    {{jewelry.title}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
