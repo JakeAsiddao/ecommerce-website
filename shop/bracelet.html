@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Bracelets
 ---
 
 <div class="grid">
@@ -12,12 +13,12 @@ layout: default
 </div>
 
 <ul>
-    {% for jewelry in site.pages %}
-        {% if jewelry.category == 'bracelet' %}
+    {% for shop in site.pages %}
+        {% if shop.category == 'shop' %}
             <li>
-                <a href="{{site.baseurl}}{{jewelry.url}}">
-                    <img src="{{site.baseurl}}/images/{{jewelry.image}}" alt="">
-                    {{jewelry.title}}
+                <a href="{{site.baseurl}}{{shop.url}}">
+                    <img src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                    {{shop.title}}
                 </a>
             </li>
         {% endif %}

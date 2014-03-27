@@ -12,12 +12,12 @@ layout: default
 </div>
 
 <ul>
-    {% for jewelry in site.pages %}
-        {% if jewelry.category == 'necklace' %}
+    {% for shop in site.pages %}
+        {% if shop.category == 'necklace' %}
             <li>
-                <a href="{{site.baseurl}}{{jewelry.url}}">
-                    <img src="{{site.baseurl}}/images/{{jewelry.image}}" alt="">
-                    {{jewelry.title}}
+                <a href="{{site.baseurl}}{{shop.url}}">
+                    <img src="{{site.baseurl}}/images/{{shop.image}}" alt="">
+                    {{shop.title}}
                 </a>
             </li>
         {% endif %}
