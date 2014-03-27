@@ -1,24 +1,45 @@
 footer {
-    height: 6em;
     background-color:#777;
     
 }
 
 p {
-    color: #fff;
+    color: #868585;
     text-align:center;
     padding-top:2em;
+}
+
+.footer-p p{
+    color:#fff;   
 }
 
 body {
     margin:0;   
 }
 
-img {
-   width:8%;
+.social img {
+   width:2em;
     display: inline;
 }
 
 .social {
     text-align:center;   
+}
+
+@media only screen and (min-width: 30em) {
+
+.social img {
+   width:2em;
+    display: inline;
+}
+    
+}
+    
+@media only screen and (min-width: 50em) {
+    
+.social img {
+   width:2em;
+    display: inline;
+}
+   
 }

@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>Dinos 'R' Us</title>
+    <title>Home • Raw Goods Jewelry</title>
     <meta name="handheldfriendly" content="true">
     <meta name="mobileoptimized" content="240">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -17,16 +17,16 @@
     <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/embed.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
-        <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/search-field.css" rel="stylesheet">
 </head>
 <body>
     
-<div>
+<div class="header">
         
-        <img src="http://placehold.it/100x100" alt=""> 
+               <img class="logo" src="../images/logo.svg" alt="logo"> 
         
         <div class="search-bar" id="search">
 
@@ -42,11 +42,10 @@
 
     </div>
     
-        <ul>
-            <li><a href="#" >Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="{{site.baseurl}}/" >Home</a></li>
+            <li class="list-group-item"><a href="#">About</a></li>
+            <li class="list-group-item"><a href="{{site.baseurl}}/products/">Products</a></li>
         </ul>
         
     
@@ -63,9 +62,9 @@
             </div>
             
             <div class="social">
-                <img src="images/facebook.svg">
-                <img src="images/twitter.svg">
-                <img src="images/insta.svg">
+                <img src="{{site.baseurl}}/images/facebook.svg">
+                <img src="{{site.baseurl}}/images/twitter.svg">
+                <img src="{{site.baseurl}}/images/insta.svg">
                 
             
             </div>
