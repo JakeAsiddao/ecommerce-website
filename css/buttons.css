@@ -16,6 +16,7 @@
 .btn-alt:link,
 .btn-alt:visited{
     border-color: #868585;
+        padding:0.75em 1em;
     border-width:2px;
     border-radius: 6px;
     background-color:#868585;
