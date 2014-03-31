@@ -1,6 +1,6 @@
 # User Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by {Jake Asiddao} on {March 28th 2014} between the times of {2pm} and {5pm} with the following participants:
 
 - {Michelle Dugas}
 - {Alissa Dicaire}
@@ -32,11 +32,11 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {Iman Ghader}
 
-- {She clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {She asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- {Scrolled down, tried clicking on small promo}
+- {Clicked on shop page when realizing small promo wasnt clickable}
+- {tried clicking images}
+- {chose bracelets in the sop-nav}
+- {from list items, no other pages were linked}
 
 ---
 
@@ -44,15 +44,16 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
+- {All participants attempted clicking on the images}
+- {All participants could not get past product list items page}
 
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
+- {First two succeeded and last could not navigate to cart page}
 - etc.
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {No images were placed}
+- {Images were not clickable}
