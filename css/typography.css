@@ -174,3 +174,13 @@ padding: .5rem 2rem;
 th{
 padding: 0rem 1rem;    
 }
+
+.gutter {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.gutter-2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
