@@ -108,6 +108,17 @@ color :#f55;
 border-bottom-color: 0.1em solid rgba(201, 66, 66, 0.5);
 }
 
+a:hover,
+a:active {
+  outline:none;
+}
+
+a:focus,
+input:focus,
+button:focus{
+ outline: 3px solid #777;  
+}
+
 cite{
 color:#868585;     
 }

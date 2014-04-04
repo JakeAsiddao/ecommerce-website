@@ -25,13 +25,13 @@
 </head>
 <body>
     
-<div class="header">
+<header class="header" role="banner">
         
                <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="logo"> 
         
         <div class="search-bar" id="search">
 
-        <form action="javascript:void(0);" method="get">
+        <form action="javascript:void(0);" method="get" role="search">
 
             <input type="text" required value="search" onBlur="if(this.value=='')this.value='search'" onFocus="if(this.value=='search')this.value='' "> <!-- JS because of IE support; better: placeholder="search" -->
 
@@ -43,23 +43,27 @@
 
     </div>
     
+    <nav  role="navigation">
+    
         <ul class="list-group">
             <li class="list-group-item"><a href="{{site.baseurl}}/" >Home</a></li>
             <li class="list-group-item"><a href="{{site.baseurl}}/about/">About</a></li>
             <li class="list-group-item"><a href="{{site.baseurl}}/shop/shop-nav/">Shop</a></li>
         </ul>
         
+    </nav>
+        
     
     
-    </div>    
+    </header>    
     
 {{content}}
     
    <footer>
         
-            <div class="footer">
+            <div class="footer" role="contentinfo">
             
-                <p class="micro">Copyright Asiddao 2014</p>
+                <p class="micro">Copyright RAW GOODS 2014</p>
             </div>
             
             <div class="social">
