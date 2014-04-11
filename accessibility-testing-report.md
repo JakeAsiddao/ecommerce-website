@@ -4,8 +4,8 @@ User testing was conducted by {Philip Asiddao} on {Friday, april 4th 2014} betwe
 
 - {Columbina Anzivino}
 - {Michelle Dugas}
-- {Martine Cormier}
-- {Alissa Decaire}
+- {Greg Leblancr}
+- {Alissa Dicaire}
 - {Iman Ghader}
 - {Elzahra Elghirani}
 
@@ -23,8 +23,7 @@ User testing was conducted by {Philip Asiddao} on {Friday, april 4th 2014} betwe
 
 - {Quick and easy}
 - {Noticed all prices were the same for all products}
-
-
+- {Noticed about page lacked information}
 
 ### {Michelle Dugas}
 
@@ -32,23 +31,22 @@ User testing was conducted by {Philip Asiddao} on {Friday, april 4th 2014} betwe
 - {Straight forward}
 - {Did not know if she was able to use trackpad to scroll}
 
-### {Martine Cormier}
+### {Greg Leblanc}
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- {Easy navigation}
+- {Also noticed all product prices were the same}
+- {Noticed search field was not working (missing button)}
 
-### {Alissa Decaire}
+### {Alissa Dicaire}
 
-- {She completed the task as expected…}
-- {She had troubles completing a specific task…}
-- etc.
+- {Completed the tasks but had difficulty}
+- {Descriptions were not read by voice over}
+- {Had to replay voice over for each page mutiple times}
 
 ### {Iman Ghader}
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+- {Serious difficulty nagivating}
+- {Could not complete 3rd task because of the description not being read}
 
 ### {Elzahra Elghirani}
 
@@ -62,15 +60,13 @@ User testing was conducted by {Philip Asiddao} on {Friday, april 4th 2014} betwe
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
-- etc.
+- {Search feild not working}
+- {Descriptons not being read by voice over}
 
 ### Serious, Causes Frustration, May Hinder Completion
 
-- {Two of the participants succeeded where one of them failed…}
-- etc.
+- {About page lacked information on products/company}
 
 ### Minor, Annoying, Won’t Hinder Completion
 
-- {Participants pointed out this inconsistency…}
-- etc.
+- {All prices for items were the same}
