@@ -75,6 +75,10 @@ p {
     margin-top: 2rem;
 }
     
+    li{
+    list-style-type: none;
+    }
+    
 }
 
 @media only screen and (min-width: 50em) {
@@ -94,5 +98,10 @@ p {
     li{
         display: inline;
     }
+    
+     li{
+    list-style-type: none;
+    }
+    
     
 }
